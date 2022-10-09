@@ -1,0 +1,17 @@
+package homework1;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Customer customer = new Customer(1,"Kemal","Doruk","111111111111");
+		customerManager cm = new customerManager();
+		cm.Save(customer);
+		
+		
+        CreditManager creditManager = new CreditManager();
+        creditManager.Hesapla();
+        creditManager.Save();
+	}
+
+}
